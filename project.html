@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Project</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="viewport" content="width=device-width" />
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="portal.css" />
+  <link rel="stylesheet" href="nav.css" />
+ </head>
+ <body>
+     <header>
+     <h1>Project</h1>
+     <nav class="topnav" id="myTopnav">
+       <a href="about.html" >About</a>
+       <a href="project.html" class="active">Project</a>
+       <a href="resume.html">Resume</a>
+       <a href="contact.html">Contact Nhi</a>    
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+     </nav>
+     </header>
+     
+   <div class="wrapper">
+       
+       <h2 class="subheader">Nhi's project</h2>
+       
+       <p>My project for Thu Tuan Accessories Business</p>
+       <p>Background: Thu Tuan Car Accessories is a small retailer selling accessories for cars. They have been in business for 10 years but only sell at their physical store and do not have any online shop or do any marketing. Their customers are mainly loyal customers who have been buying from them for years.</p>
+       <p>Issues/Problem: It is getting harder for them to do their business when more and more competitors are selling and promoting their products online when they only have a physical store. They lost a large amount of income from the covid pandemic due to the government stay-at-home order.</p>
+       <p>Decisions: They decided to get a website to start selling online right away to be able to keep their business alive. They want their website to be simple but have pictures of the items they are sellings and their promotions</p>
+       <p>Work: The website was created with a homepage to tell the customer about their business, the shopping section that includes all their products and the promotion sections with all the sales items and discounts </p>
+       <p>Result: The business has increased their revenue by 30% since using the e-commerce website and been able to expand their product range and inventory to reach more customers.</p>
+
+       <img class="desktop" src="thutuanpic.jpeg" alt="a picture of thu tuan's website">
+       <img class="tablet" src="thutuanpic.jpeg" alt="a picture of thu tuan's website">
+       <img class="phone" src="thutuanpic.jpeg" alt="a picture of thu tuan's website">
+       
+     <footer>
+      <p><small>&copy; 2021 by 
+          <a href="contact.html">Nhi Nguyen</a>, All Rights Reserved ~ 
+          <a id="html-checker" href="#">Check HTML</a> ~ 
+          <a id="css-checker" href="#">Check CSS</a></small>
+     </p>
+    </footer>
+  </div>
+     
+  <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+     
+  <script>
+    //https://tinyurl.com/dynamic-html-checker
+    document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+      
+    document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);  
+    
+    //manages mobile nav 
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }   
+ </script>
+     
+ </body>
+</html>
